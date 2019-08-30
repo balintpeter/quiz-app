@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Muli|Open+Sans|Roboto&display=swap");
+.container {
+  display: table;
+}
+.page {
+  font-family: "Mali", sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    display: table;
+  }
+  .page {
+    width: 70%;
+    height: 80%;
+
+    background: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+
+    position: absolute; /*it can be fixed too*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .page {
+    width: 70%;
+    height: 80%;
+
+    background: #fff;
+    padding: 20px 60px;
+    border-radius: 25px;
+
+    position: absolute; /*it can be fixed too*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
